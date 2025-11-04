@@ -1,0 +1,21 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A Cloudflare Workers app to generate QR codes for URLs",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "qr-code",
+    "cloudflare",
+    "workers",
+    "qr-generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
